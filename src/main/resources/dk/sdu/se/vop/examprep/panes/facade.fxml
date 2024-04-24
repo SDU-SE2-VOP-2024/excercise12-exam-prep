@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.sdu.se.vop.examprep.gui.panes.FacadeController">
+    <children>
+        <AnchorPane layoutX="79.0" layoutY="48.0" prefHeight="35.0" prefWidth="100.0">
+            <children>
+                <Label layoutX="1.0" layoutY="9.0" text="Size:"/>
+                <TextField fx:id="inputSize" layoutX="28.0" layoutY="5.0" prefHeight="26.0" prefWidth="63.0"/>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="190.0" layoutY="48.0" prefHeight="35.0" prefWidth="100.0">
+            <children>
+                <Label layoutX="1.0" layoutY="9.0" text="Max:"/>
+                <TextField fx:id="inputMax" layoutX="28.0" layoutY="5.0" prefHeight="26.0" prefWidth="63.0"/>
+            </children>
+        </AnchorPane>
+        <Button fx:id="fillRandomBtn" layoutX="319.0" layoutY="53.0" mnemonicParsing="false" text="Fill random"/>
+        <Button fx:id="fillUniqueBtn" layoutX="435.0" layoutY="53.0" mnemonicParsing="false" text="Fill Unique"/>
+        <TextArea fx:id="outputArray" disable="true" editable="false" layoutX="79.0" layoutY="106.0" prefHeight="112.0"
+                  prefWidth="430.0"/>
+        <AnchorPane layoutX="79.0" layoutY="265.0" prefHeight="35.0" prefWidth="129.0">
+            <children>
+                <Label layoutX="1.0" layoutY="9.0" text="Divisor:"/>
+                <TextField fx:id="inputDivisor" layoutX="52.0" layoutY="5.0" prefHeight="26.0" prefWidth="63.0"/>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="223.0" layoutY="270.0" prefHeight="26.0" prefWidth="100.0">
+            <children>
+                <Label layoutY="5.0" text="Sum:"/>
+                <Label fx:id="outputDivisorSum" alignment="CENTER_RIGHT" layoutX="36.0" layoutY="5.0" minWidth="20.0"
+                       prefHeight="17.0" prefWidth="41.0" text="0" textAlignment="RIGHT"/>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
