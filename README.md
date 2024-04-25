@@ -87,7 +87,7 @@ This class diagram shows a simplified structure of a laundromat:
 The interface `LaundryMachine` represents all machines, that can be used inside a laundromat (wash, drying, spin drying,
 soap-vendor, coffee machine and more.). However, in this task we're solely focusing on washing machines and dryers:
 
-`LaundryMachine.java` (supplied boilerplate code) defines the methods:
+`LaundryMachine.java` (provided code) defines the methods:
 
 | Method                            | Return                                              |
 |-----------------------------------|-----------------------------------------------------|
