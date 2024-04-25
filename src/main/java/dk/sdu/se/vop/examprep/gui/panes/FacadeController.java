@@ -2,12 +2,9 @@ package dk.sdu.se.vop.examprep.gui.panes;
 
 import dk.sdu.se.vop.examprep.facade.Facade;
 import javafx.beans.Observable;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.scene.input.KeyEvent;
 
 import java.util.Arrays;
 
